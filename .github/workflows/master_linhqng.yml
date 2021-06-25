@@ -45,4 +45,4 @@ jobs:
         app-name: 'linhqng'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_42c5952009f64835ab06b8c438132727 }}
-        package: 'build'
+        package: '.'
